@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Fruits from './fruits';
-import reportWebVitals from './reportWebVitals';
+import State from './state';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,8 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Fruits />
+    <State />
   </React.StrictMode>
 );
 
-reportWebVitals();
+
