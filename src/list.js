@@ -1,4 +1,4 @@
-export const list = [
+const list = [
     {id:1, name: 'John'},
     {id:2, name: 'Rick'},
     {id:3, name: 'Joey'},
@@ -8,3 +8,8 @@ export const list = [
     {id:7, name: 'Karl'},
     {id:8, name: 'Suzy'}
 ]
+
+export default list;
+
+
+
